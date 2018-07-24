@@ -1,12 +1,54 @@
-/* .topnav{
-    color: yellow;
-    margin-bottom: 50px;
-    margin-left: 1000px;
-    margin-top: -50px;
+body {
+    /* background-color: #c6c6c6; */
+}
+
+.topnav {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    /* padding: 10px; */
+}
+
+.topnav h1 {
+    color: #fdf731;
+    font-size: 30px;
+    /* font-family: "Merriweather"; */
+    font-weight: bold;
+    padding: 10px;
+}
+
+.topnav a {
+    float: right;
+    margin-left: 10px;
     font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.tagline {
+    height: 60px;
+    width: 100%;
+    background-color: #c6c6c6;
+}
+
+.tagline h1 {
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Merriweather";
+    padding: 16px;
+    text-align: center;
+}
+/* 
+img {
+    width: 100%;
+    height: 200px;
 } */
 
-body {
-    background-color: #c6c6c6;
-
+.img {
+    background-image: url('../images/coworking.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
 }

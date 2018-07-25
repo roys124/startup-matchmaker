@@ -1,5 +1,5 @@
 body {
-    /* background-color: #c6c6c6; */
+    background-color: #c6c6c6;
 }
 
 .topnav {
@@ -21,7 +21,7 @@ body {
 }
 
 .topnav a {
-    float: right;
+    float: left;
     /* margin-left: 10px; */
     font-size: 20px;
     color: white;
@@ -61,11 +61,13 @@ img {
     font-size: 25px;
     font-family: "Merriweather";
     font-weight: bold;
+    background-color: white;
 }
 
 .bodypara {
     font-size: 20px;
     font-family: "Source Sans Pro";
+    background-color: white;
 }
 
 .box {
@@ -75,10 +77,12 @@ img {
     box-sizing: border-box;
     padding: 30px;
     border-right: 1px solid lightgrey;
+    background-color: white;
 }
 
 .box.last {
     border: none;
+    background-color: white;
 }
 
 .row {
@@ -101,4 +105,79 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
+}
+
+.picturerows {
+    background-color: #c6c6c6;
+}
+
+main {
+    padding: 20px;
+    background-color: #c6c6c6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.other {
+    background-color: #fdf731;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    width: 270px;
+    margin: 20px 5px 15px 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-color: #fdf731;
+    border-right: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+div.box {
+    width: 22.5%;
+    background-color: #fff;
+    padding: 15px 0 0 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+div.picture {
+    width: 90%;
+    margin: 0 5%;
+    height: 300px;
+    background-color: #c6c6c6;
+}
+
+p.dimensions {
+    font-family: 'Oswald', sans-serif;
+    color: #696969;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 125px;
+}
+
+p.someperson {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.specialty {
+    text-decoration: none;
+    color: #fff;
+    background-color: #696969;
+    border-radius: 50px;
+    border: 1px solid #696969;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 12.5px;
+    padding: 2.5px 7.5px;
+    margin-left: 10px;
+}
+
+.major.active {
+    background-color: #808080;
 }

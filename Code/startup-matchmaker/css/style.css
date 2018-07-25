@@ -7,6 +7,8 @@ body {
     width: 100%;
     background-color: black;
     /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .topnav h1 {
@@ -20,10 +22,11 @@ body {
 
 .topnav a {
     float: right;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 20px;
     color: white;
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 .tagline {
@@ -52,4 +55,50 @@ img {
     width: 100%;
     background-size: cover;
     background-position: center center;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+.bodypara {
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+}
+
+.box {
+    float: left;
+    width: 30%;
+    margin: 0 1.6%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-right: 1px solid lightgrey;
+}
+
+.box.last {
+    border: none;
+}
+
+.row {
+    margin-top: 2%;
+}
+
+button {
+    font-size: 20px;
+    font-family: "oswald";
+    font-weight: bold;
+    padding: 5px;
+    width: 85%;
+    margin-right: 20px;
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 13%;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
 }

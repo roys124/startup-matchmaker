@@ -107,10 +107,6 @@ footer {
     color: white;
 }
 
-.picturerows {
-    background-color: #c6c6c6;
-}
-
 main {
     padding: 20px;
     background-color: #c6c6c6;
@@ -132,7 +128,7 @@ button.other {
     text-decoration: none;
 }
 
-div.box {
+div.cube {
     width: 22.5%;
     background-color: #fff;
     padding: 15px 0 0 0;
@@ -180,4 +176,15 @@ a.specialty {
 
 .major.active {
     background-color: #808080;
+}
+
+.img h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "source sans";
+    float: right;
+}
+
+.img p {
+    float: right
 }
